@@ -16,7 +16,7 @@ a{
 }
 
 .wrapper--bg{
-    background: url('./images/1.png') top center, url('./images/2.png') bottom 165px right, #001821;
+    background: url('../images/1.png') top center, url('../images/2.png') bottom 165px right, #001821;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -243,11 +243,11 @@ p{
 }
 
 .tours__desc-calendar::before{
-    content:url(./images/calendar.png)
+    content:url(../images/calendar.png)
 }
 
 .tours__desc-meal::before{
-    content: url(./images/meal.png);
+    content: url(../images/meal.png);
 }
 
 .btn--color--white{
@@ -361,11 +361,11 @@ p{
     vertical-align: top;
     width: 490px;
     height: 505px;
-    background: url("./images/gates.png") center center / cover no-repeat;
+    background: url("../images/gates.png") center center / cover no-repeat;
 }
 
 .about__desc{
-    background: url("./images/mountains.png");
+    background: url("../images/mountains.png");
     padding: 80px 98px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -431,33 +431,33 @@ p{
 }
 
 .social__item--icon--telegram .social__link{
-    background-image: url("./images/tg.png");
+    background-image: url("../images/tg.png");
 }
 
 .social__item--icon--telegram .social__link:hover{
-    background-image: url("./images/tg-hover.png");
+    background-image: url("../images/tg-hover.png");
 }
 
 .social__item--icon--vk .social__link{
-    background-image: url("./images/vk.png");
+    background-image: url("../images/vk.png");
 }
 
 .social__item--icon--vk .social__link:hover{
-    background-image: url("./images/vk-hover.png");
+    background-image: url("../images/vk-hover.png");
 }
 
 .social__item--icon--fb .social__link{
-    background-image: url("./images/fb.png");
+    background-image: url("../images/fb.png");
 }
 
 .social__item--icon--fb .social__link:hover{
-    background-image: url("./images/fb-hover.png");
+    background-image: url("../images/fb-hover.png");
 }
 
 .social__item--icon--insta .social__link{
-    background-image: url("./images/in.png");
+    background-image: url("../images/in.png");
 }
 
 .social__item--icon--insta .social__link:hover{
-    background-image: url("./images/in-hover.png");
+    background-image: url("../images/in-hover.png");
 }
