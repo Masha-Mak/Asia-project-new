@@ -40,7 +40,7 @@ p{
 }
 
 .container{
-    margin: o auto;
+    margin: 0 auto;
     width: 1140px;
 }
 
@@ -111,7 +111,6 @@ p{
     font-size: 13px;
     text-decoration: underline;
     color: #FFFFFF;
-    top: 55px;
     margin-top: -7px;
 }
 
@@ -142,14 +141,12 @@ p{
     line-height: 19px;
     border-radius: 35px;
     color: #FFFFFF;
-    font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
     padding: 18px 40px;
     display: inline-block;
-    font-style: bold;
     transition: .5s;
 }
 
@@ -157,19 +154,25 @@ p{
     background: #F5170E;
 }
 
-.tours__btn{
-    width: 135px;
-}
-
 .section{
     margin-bottom: 227px;
 }
 
 .section__title{
+    display: inline-block;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 51px;
     color: #FFFFFF;
+}
+
+.section__title::after{
+    display: inline-block;
+    content:url(./images/flame.png)
+}
+
+li, .tours__item{
+ overflow: hidden;
 }
 
 .tours__item{
@@ -188,7 +191,6 @@ p{
 .tours__header{
     min-height: 144px;
     margin-bottom: 30px;
-    min-height: 144px;
     position: relative;
 }
 
@@ -210,12 +212,10 @@ p{
 .tours__desc-block{
     display: inline-block;
     vertical-align: top;
-    width: 126px;
     margin-right: 22px;
-    margin-bottom: 24px;
 }
 
-..tours__desc-block:last-child{
+.tours__desc-block:last-child{
     margin-right: 0;
 }
 
@@ -243,11 +243,19 @@ p{
 }
 
 .tours__desc-calendar::before{
+    display: inline-block;
+    margin-right: 10px;
     content:url(./images/calendar.png)
 }
 
 .tours__desc-meal::before{
+    display: inline-block;
+    margin-right: 10px;
     content: url(./images/meal.png);
+}
+
+.tours__about{
+    margin-bottom: 29px;
 }
 
 .btn--color--white{
@@ -293,7 +301,6 @@ p{
     right: 0;
     bottom: 0;
     padding: 25px 30px;
-    min-height: 140px;
     margin-bottom: 20px;
 }
 
@@ -314,6 +321,7 @@ p{
 .news__desc{
     font-size: 16px;
     color: #FFFFFF;
+    min-height: 45px;
 }
 
 .pager{
@@ -330,7 +338,7 @@ p{
     display: inline-block;
     margin-right: 25px;
     color: #FFFFFF;
-    margin-left: -185px;}
+}
 
 .pager__item{
     display: inline-block;
@@ -341,18 +349,27 @@ p{
 .pager__item--active .pager__link{
     background: #FFFFFF;
     color: #F5170E;
-
-}
-
-.pager__link{
-    display: block;
-    width: 32px;
-    height: 32px;
     border-radius: 50%;
     position: relative;
     text-decoration: none;
     font-weight: bold;
     line-height: 32px;
+    padding: 2px 11px;
+    margin-right: 24px;
+    height: 32px;
+    width: 32px;
+}
+
+.pager__link{
+    display: block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+    padding-right: 24px;
 }
 
 .about:before{
@@ -377,6 +394,7 @@ p{
     margin-top: 100px;
     border-radius: 5px;
     background-size: cover;
+
 }
 
 .about__title{
@@ -384,7 +402,6 @@ p{
     font-size: 36px;
     color: #000000;
     margin-bottom: 40px;
-    margin-top: -10px;
 }
 
 .about__desc-text{
