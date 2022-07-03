@@ -414,7 +414,7 @@ li, .tours__item{
     margin-bottom: -89px;
 }
 
-.pager--theme--light{
+.pager--theme--light .pager__link{
     color: #000000;
 }
 
@@ -426,6 +426,14 @@ li, .tours__item{
 .pager--theme--light .pager__link:hover{
     color:#FFFFFF;
     background: #F5170E;
+    padding: 2px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+    height: 32px;
+    width: 32px;
 }
 
 .pager__display{
