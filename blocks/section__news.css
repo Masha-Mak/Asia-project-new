@@ -1,0 +1,149 @@
+.section{
+    margin-bottom: 227px;
+}
+
+.news{
+    margin-bottom: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__item{
+    width: 557px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 9px;
+    flex: 1;
+}
+
+.single-news{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.single-news__text-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    margin-bottom: 0px;
+}
+
+.single-news__cover{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .4;
+}
+
+.news__cover{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news__text-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    margin-bottom: 0px;
+}
+
+.news__date{
+    display: inline-block;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom:12px;
+}
+
+.single-news__date{
+    display: inline-block;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom:12px;
+}
+
+.news__title{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-style: bold;
+    margin-bottom: 8px;
+}
+
+.single-news__title{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-style: bold;
+    margin-bottom: 8px;
+}
+
+.news__desc{
+    font-size: 16px;
+    color: #FFFFFF;
+    min-height: 45px;
+}
+
+.single-news__desc{
+    font-size: 16px;
+    color: #FFFFFF;
+    min-height: 45px;
+}
+
+.section__news{
+    height: 525px;
+}
+
+.pager{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pager__display{
+    display: inline-block;
+    margin-right: 25px;
+    color: #FFFFFF;
+}
+
+.pager__list{
+    display: flex;
+    align-items: center;
+}
+
+.pager__item{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.pager__item--active .pager__link{
+    background: #FFFFFF;
+    color: #F5170E;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 2px 11px;
+    height: 32px;
+    width: 32px;
+}
+
+.pager__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}

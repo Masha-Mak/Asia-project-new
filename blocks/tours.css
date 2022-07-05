@@ -1,0 +1,127 @@
+.section{
+    margin-bottom: 227px;
+}
+
+.tours{
+    height: 458px;
+}
+
+.section__title{
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 51px;
+    color: #FFFFFF;
+}
+
+.section__title--fire::after{
+    display: inline-block;
+    content:url(../images/flame.png)
+}
+
+li, .tours__item{
+    overflow: hidden;
+   }
+   
+.tours__list{
+       display: flex;
+       justify-content: space-between;
+   }
+   
+.tours__item{
+    min-height: 445px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: calc(100% / 3  - 18px);
+    display: flex;
+    flex-direction: column;
+}
+   
+.tours__item:last-child{
+    margin-right: 0;
+}
+   
+.tours__header{
+    min-height: 144px;
+    margin-bottom: 30px;
+    position: relative;
+}
+   
+.tours__content{
+    padding: 3px 16px 26px 22px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+   
+.tours__name{
+color: #000000;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 23px;
+}
+
+.tours__about{
+    color: #303030;
+}
+
+.tours__desc-block{
+    margin-right: 22px;
+}
+
+.tours__desc-block:last-child{
+    margin-right: 0;
+}
+
+.tours__desc-name{
+    color:#666666;
+    font-size: 16px;
+}
+
+.tours__about{
+    font-size: 14px;
+    color: #303030;
+}
+
+.tours__desc{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours__btn-wrapper{
+    display: flex;
+    background: #FFFFFF;
+    color: #F5170E;
+    margin-right: 24px;
+    margin-top: auto;
+}
+
+.tours__desc-calendar::before{
+    display: inline-block;
+    margin-right: 10px;
+    content:url(../images/calendar.png)
+}
+
+.tours__desc-meal::before{
+    display: inline-block;
+    margin-right: 10px;
+    content: url(../images/meal.png);
+}
+
+.tours__about{
+    margin-bottom: 29px;
+}
+
+.btn--color--white{
+    background: transparent;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+    border-radius: 35px;
+}
+
+.btn--color--white:hover{
+    background: #F5170E;
+    color: #FFFFFF;
+}

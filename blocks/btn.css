@@ -1,0 +1,17 @@
+.btn{
+    background: #F5170E;
+    line-height: 19px;
+    border-radius: 35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 18px 40px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: #F5170E;
+}
