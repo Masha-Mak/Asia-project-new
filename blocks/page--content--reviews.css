@@ -1,0 +1,154 @@
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.page--content--reviews{
+    height: 1450px;
+    margin-bottom: 76px;
+}
+
+.reviews{
+    column-count: 2;
+    column-gap: 27px;
+}
+
+.reviews__item{
+    margin-bottom: 20px;
+}
+
+.review{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 103px 30px;
+    background: #F4F5F5;
+}
+
+.review__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.review__user{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    color: #2E77A4;
+    margin-bottom: 11px;
+}
+
+.review__user:after{
+    content: url("./images/vk-blue 1.png");
+    height: 29px;
+}
+
+
+.avatar{
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review__tags{
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag{
+    font-size: 13px;
+    color: #303030;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+
+.tag--bg--green{
+    background: #B9EAE4;
+}
+
+.review__title{
+    font-size: 30px;
+    color: #1A1B1E;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.review__content-text{
+    margin-bottom: 48px;
+}
+
+.review__date{
+    font-size: 14px;
+    color: #1A1B1E;
+    font-weight: bold;
+}
+
+.pager{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pager--theme--light .pager__link{
+    color: #000000;
+}
+
+.pager--theme--light .pager__display{
+    color: #000000;
+}
+
+.pager--theme--light .pager__item--active .pager__link{
+    color:#FFFFFF;
+    background: #F5170E;
+}
+
+.pager--theme--light .pager__link:hover{
+    color:#FFFFFF;
+    background: #F5170E;
+}
+
+.pager__display{
+    display: inline-block;
+    margin-right: 25px;
+    color: #FFFFFF;
+}
+
+.pager__list{
+    display: flex;
+    align-items: center;
+}
+
+.pager__item{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.pager__item--active .pager__link{
+    background: #FFFFFF;
+    color: #F5170E;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 2px 11px;
+    height: 32px;
+    width: 32px;
+}
+
+.pager__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
