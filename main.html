@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./main.css">
+    <!-- <link rel="stylesheet" href="./blocks/dropdown-menu.css"> -->
 
     <!-- <link rel="stylesheet" href="./layout/fonts.css">
     <link rel="stylesheet" href="./layout/base.css">
@@ -45,7 +46,15 @@
                         <div class="header__col header__col--align--right">
                         <address class="contacts">
                             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                            <div class="contacts__dropdown-title">График работы</div>
+                            <div class="dropdown">
+                            <a class="contacts__dropdown-title">График работы</a>
+                            <div class="dropdown__menu">
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__item">пн-вс: 9:00 - 20:00</li>
+                                    <li class="dropdown__item">Обед: 14:00-14:30</li>
+                                </ul>
+                            </div>
+                            </div>
                         </address>
                         </div>
                     </header>
