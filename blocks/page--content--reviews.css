@@ -5,8 +5,7 @@ button{
 }
 
 .page--content--reviews{
-    height: 1450px;
-    margin-bottom: 76px;
+    height: 1400px;
 }
 
 .reviews{
@@ -22,7 +21,7 @@ button{
 .review{
     display: inline-flex;
     flex-direction: column;
-    padding: 103px 30px;
+    padding: 50px 30px;
     background: #F4F5F5;
 }
 
@@ -30,7 +29,6 @@ button{
     display: flex;
     align-items: center;
     margin-bottom: 27px;
-    margin-top: -15x;
 }
 
 .review__user{
