@@ -1,3 +1,9 @@
+.inner-section__title{
+    font-size: 48px;
+    color: #1A1B1E;
+    font-weight: bold;
+}
+
 .form__row{
     display: flex;
     margin-bottom: 30px;

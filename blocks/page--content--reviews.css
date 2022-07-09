@@ -16,6 +16,7 @@ button{
 
 .reviews__item{
     margin-bottom: 20px;
+    margin-top: 35px;
 }
 
 .review{
@@ -29,6 +30,7 @@ button{
     display: flex;
     align-items: center;
     margin-bottom: 27px;
+    margin-top: -15x;
 }
 
 .review__user{
@@ -51,6 +53,7 @@ button{
     height: 142px;
     overflow: hidden;
     border-radius: 50%;
+    margin-right: 24px;
 }
 
 .review__tags{
